@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Jeu du morpion</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@400;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1><span>Le </span>Morpion</h1>
+    <p class="comment">Qui sortira vainqueur ?</p>
+    
+    <div class="container">
+      <p class="player1 active">P1</p>
+      <div class="morpion-container">
+        <div class="case" data-index="0"></div>
+        <div class="case" data-index="1"></div>
+        <div class="case" data-index="2"></div>
+        <div class="case" data-index="3"></div>
+        <div class="case" data-index="4"></div>
+        <div class="case" data-index="5"></div>
+        <div class="case" data-index="6"></div>
+        <div class="case" data-index="7"></div>
+        <div class="case" data-index="8"></div>
+      </div>
+      <p class="player2">P2</p>
+    </div>
+    <p>Appuyez sur "espace" pour recommencer</p>
+   
+    <script src="app.js"></script>
+  </body>
+</html>
